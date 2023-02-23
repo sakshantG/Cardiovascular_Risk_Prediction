@@ -62,7 +62,7 @@ After training each model and tuning their hyper-parameters using grid search, I
 
 ## 4.CONCLUSION
 
-**Cardiovascular disease is a major public health problem in our country(India), often impacting the most productive years of an individual’s life. Therefore, predicting the disease before becoming infected decreases the risk of death. This prediction is an area that is widely researched. We tried six classification modeling techniques on a real data set of residents of the town of Framingham. 
+Cardiovascular disease is a major public health problem in our country(India), often impacting the most productive years of an individual’s life. Therefore, predicting the disease before becoming infected decreases the risk of death. This prediction is an area that is widely researched. We tried six classification modeling techniques on a real data set of residents of the town of Framingham. 
 We evaluated models using evaluation metrics and compared their performances of models so as to get the best performing model. Results showed that the Gradient Boosting model has the best accuracy of 88%, whereas Logistic regression being the least accurate model. We also used ROC curve analysis to evaluate models and found that again Gradient Boosting model has best auc score of 0.948 which is pretty good. The GradientBoostingClassifier is found to be the best model. Therefore, the Gradient Boosting model can be used to predict risk of CHD. 
 Variable importance analysis showed that age, systolic BP, total cholesterol and glucose(diabetes) are the most influential features to predict whether the patient has a 10-year risk of future coronary heart disease. 
 
